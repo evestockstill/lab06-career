@@ -1,0 +1,30 @@
+{
+  "name": "lab06-career",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+   "test": "jest --verbose",
+  "test:watch": "npm run test -- --watchAll --coverage",
+  "start:watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evestockstill/lab06-career.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evestockstill/lab06-career/issues"
+  },
+  "homepage": "https://github.com/evestockstill/lab06-career#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.1"
+  }
+}
