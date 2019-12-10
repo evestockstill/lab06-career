@@ -9,8 +9,13 @@
   "scripts": {
     "test": "jest --verbose",
     "test:watch": "npm run test -- --watchAll --coverage",
-    "start:watch": "nodemon"
+    "start:watch": "nodemon",
+    "lint": "eslint '**/*.js'"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/evestockstill/lab06-career.git"
