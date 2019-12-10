@@ -1,5 +1,6 @@
 const app = require('./lib/app');
 
 app.listen(7890, () => {
-  console.log('Application started!');
+  // eslint-disable-next-line no-console
+  console.log('Application started!'.bgCyan);
 });
